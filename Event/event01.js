@@ -6,6 +6,7 @@ eventEmitter.once("notification", () => {
 })
 
 eventEmitter.emit("notification");
+
 eventEmitter.emit("notification");
 eventEmitter.emit("notification");
 eventEmitter.emit("notification");

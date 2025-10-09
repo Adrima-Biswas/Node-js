@@ -1,6 +1,5 @@
 const EventEmitter = require("events")
-const eventEmitter = new EventEmitter();
-
+const eventEmitter = new EventEmitter();
 eventEmitter.once("notification", () => {
     console.log("u r hacked");
 })

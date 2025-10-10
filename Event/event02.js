@@ -5,8 +5,7 @@ eventEmitter.on('greet', () => {
 })
 eventEmitter.on('greet', () => {
     console.log("Second listener");
-})
-
+})
 eventEmitter.emit('greet');
 
 console.log(eventEmitter.listeners('greet'));

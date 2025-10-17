@@ -5,6 +5,7 @@ const eventEmitter = new EventEmitter();
 eventEmitter.on('greet', (n) => {
 
     console.log("First event",n);
+
 })
 eventEmitter.emit('greet',900);
 eventEmit

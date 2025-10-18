@@ -8,4 +8,3 @@ eventEmit
 ter.emit('greet',900);
 eventEmitter.emit('greet',900);
 
-

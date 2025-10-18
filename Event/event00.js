@@ -1,6 +1,5 @@
 const EventEmitter = require('events');
 const eventEmitter = new EventEmitter();
-
 eventEmitter.on('greet', (n) => {
 
     console.log("First event",n);
